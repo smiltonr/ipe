@@ -1,0 +1,14 @@
+<ipestyle name="bullet">
+<preamble>
+\usepackage{tikz}
+\makeatletter
+\def\KIT@itemcolor{KITgreen}
+\newcommand{\KITItem}[2]{\begin{tikzpicture}[scale=#2]
+\draw [color=#1, fill=#1] (3.83122,15.32487) .. controls (1.71528,15.32487) and (0,13.60958) .. (0,11.49365) -- (0,0) -- (11.49364,0) .. controls (13.60958,0) and (15.32486,1.71528) .. (15.32486,3.83122) -- (15.32486,15.32487) -- (3.83122,15.32487) ;
+\end{tikzpicture}%
+}
+\def\labelitemi{\KITItem{\KIT@itemcolor}{0.01}}
+\def\labelitemii{\raisebox{0.2ex}{\KITItem{\KIT@itemcolor}{0.0075}}}
+\makeatother
+</preamble>
+</ipestyle>

@@ -1,0 +1,12 @@
+<ipestyle name="background">
+<gradient name="linear" type="axial" extend="yes" coords="75 0 325 0">
+<stop offset="0.05" color="1 1 0.2"/>
+<stop offset="0.95" color="1 1 0.4"/>
+</gradient>
+<symbol name="Background" xform="yes">
+<path fill="1" gradient="linear">
+-32 0 m 800 0 l 800 600 l -32 600 l h
+</path>
+</symbol>
+</ipestyle>
+
